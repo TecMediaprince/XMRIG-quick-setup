@@ -15,9 +15,6 @@ sudo ubuntu-drivers devices
 # Install NVIDIA driver version 535
 sudo apt install nvidia-driver-535 -y
 
-# Reboot to apply driver changes
-sudo reboot now
-
 # Install essential tools for CUDA installation
 sudo apt install git build-essential cmake libuv1-dev libssl-dev libhwloc-dev gcc wget
 
